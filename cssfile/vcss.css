@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width: 992px) {
+    .box1,.box2,.box3{
+        width: 28%;
+        margin-top: 20px;
+        display: inline-block;
+        height: 300px;
+    }
+    .box1{
+        margin-left: 5%;
+        margin-right: 1%;
+    }
+    .box2{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .box3{
+        margin-right: 5%;
+        margin-left: 1%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box1, .box2{
+        width: 43%;
+        margin-top: 20px;
+        display: inline-block;
+        height: 280px;
+    }
+    .box1{
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+
+    .box2{
+        margin-top: 20px;
+        margin-left: 2%;
+        margin-right: 3%;
+    }
+    .box3{
+        width: 94%;
+        margin-top: 25px;
+        margin-left: 3%;
+        margin-right: 3%;
+        height: 280px;
+    }
+}
+
+@media (max-width: 767px) {
+    .box1, .box2, .box3{
+        width: 90%;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 230px;
+    }
+}
+
+h2{
+    text-align: center;
+    color: crimson;
+    font-family: sans-serif;
+    padding: 80px;
+}
+
+.box1{
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    position: relative;
+}
+
+.box2{
+    background-color: cadetblue;
+    border: 2px solid black;
+    position: relative;
+}
+
+.box3{
+    background-color: dodgerblue;
+    border: 2px solid black;
+    position: relative;
+}
+
+p{
+    font-size: 18;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+  margin-left: auto;
+  top: 10px;
+}
+
+.hd1
+{
+    background-color: blanchedalmond;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    position: absolute;
+    width: 60px;
+    right: 0;
+    top: 0;
+}
+
+.hd2{
+    background-color: floralwhite;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    position: absolute;
+    width: 60px;
+    right: 0;
+    top: 0;
+}
+
+.hd3
+{
+    background-color: bisque;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    position: absolute;
+    width: 60px;
+    right: 0;
+    top: 0;
+}
+
+h3{
+    text-align: centre;
+    font-size: 175%;
+}
+vivekcssfile.css
+Displaying vivekcssfile.css.
